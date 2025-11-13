@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/tonystoyanov/Downloads/ApplePayNuveiCashier/GPayNuveiCashier/GPayNuveiCashier.csproj": {}
+    "/Users/tonystoyanov/Downloads/ApplePayNuveiHpp/ApplePayNuveiHpp.csproj": {}
   },
   "projects": {
-    "/Users/tonystoyanov/Downloads/ApplePayNuveiCashier/GPayNuveiCashier/GPayNuveiCashier.csproj": {
+    "/Users/tonystoyanov/Downloads/ApplePayNuveiHpp/ApplePayNuveiHpp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/tonystoyanov/Downloads/ApplePayNuveiCashier/GPayNuveiCashier/GPayNuveiCashier.csproj",
-        "projectName": "GPayNuveiCashier",
-        "projectPath": "/Users/tonystoyanov/Downloads/ApplePayNuveiCashier/GPayNuveiCashier/GPayNuveiCashier.csproj",
+        "projectUniqueName": "/Users/tonystoyanov/Downloads/ApplePayNuveiHpp/ApplePayNuveiHpp.csproj",
+        "projectName": "ApplePayNuveiHpp",
+        "projectPath": "/Users/tonystoyanov/Downloads/ApplePayNuveiHpp/ApplePayNuveiHpp.csproj",
         "packagesPath": "/Users/tonystoyanov/.nuget/packages/",
-        "outputPath": "/Users/tonystoyanov/Downloads/ApplePayNuveiCashier/GPayNuveiCashier/obj/",
+        "outputPath": "/Users/tonystoyanov/Downloads/ApplePayNuveiHpp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/tonystoyanov/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kqYg8vUQwpk=",
+  "dgSpecHash": "14u89pyrt5c=",
   "success": true,
-  "projectFilePath": "/Users/tonystoyanov/Downloads/ApplePayNuveiCashier/GPayNuveiCashier/GPayNuveiCashier.csproj",
+  "projectFilePath": "/Users/tonystoyanov/Downloads/ApplePayNuveiHpp/ApplePayNuveiHpp.csproj",
   "expectedPackageFiles": [
     "/Users/tonystoyanov/.nuget/packages/microsoft.netcore.app.ref/6.0.36/microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
     "/Users/tonystoyanov/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.36/microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",

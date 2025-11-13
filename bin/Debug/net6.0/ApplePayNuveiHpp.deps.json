@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "GPayNuveiCashier/1.0.0": {
+      "ApplePayNuveiHpp/1.0.0": {
         "runtime": {
-          "GPayNuveiCashier.dll": {}
+          "ApplePayNuveiHpp.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "GPayNuveiCashier/1.0.0": {
+    "ApplePayNuveiHpp/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

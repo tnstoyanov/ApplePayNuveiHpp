@@ -6,20 +6,12 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Web;
 
-/*
-// API user, Demo
+// Configuration properties
 string endpoint = "https://ppp-test.safecharge.com/ppp/purchase.do?";
 string merchant_id = "3832456837996201334";
 string merchant_site_id = "184063";
 string merchantSecretKey = "puT8KQYqIbbQDHN5cQNAlYyuDedZxRYjA9WmEsKq1wrIPhxQqOx77Ep1uOA7sUde";
-// end of API user, Demo
-*/
-
-// Live Tests
-string endpoint = "https://secure.safecharge.com/ppp/purchase.do?";
-string merchant_id = "5237647121962875701";
-string merchant_site_id = "256668";
-string merchantSecretKey = "JolhptiG5es6GHuaSc0udWBkJlovI5IAmOCfkOEXV1aPhThjHBeD3y8l4bsl0kTv";
+// End of configuration properties
 
 // Request parameters
 string time_stamp = DateTime.Now.ToString("yyyy-MM-ddHH:mm:ss");
@@ -58,7 +50,7 @@ string pending_url = "https://tnstoyanov.wixsite.com/payment-response/pending";
 // if you close Nuvei's cashier
 string back_url = "https://tnstoyanov.wixsite.com/payment-response/cancel";
 // Optional: your Nuvei cashier theme ID
-int theme_id = 146382; 
+// int theme_id = 146382; 
 
 string checksum = ComputeSha256Hash(
     merchantSecretKey

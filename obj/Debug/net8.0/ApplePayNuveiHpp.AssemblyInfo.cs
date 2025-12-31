@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApplePayNuveiHpp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2459a71b945801a946afe7d1c05b262fcb55108a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7f7c0d88aed987a116384f20aa3935b2be32b16")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApplePayNuveiHpp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApplePayNuveiHpp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -57,6 +57,8 @@ string error_url = "https://tnstoyanov.wixsite.com/payment-response/failed";
 string pending_url = "https://tnstoyanov.wixsite.com/payment-response/pending";
 // if you close Nuvei's cashier
 string back_url = "https://tnstoyanov.wixsite.com/payment-response/cancel";
+// Optional: your Nuvei cashier theme ID
+int theme_id = 146382; 
 
 string checksum = ComputeSha256Hash(
     merchantSecretKey
@@ -89,6 +91,7 @@ string checksum = ComputeSha256Hash(
     + error_url
     + pending_url
     + back_url
+    + theme_id.ToString()
     );
 
 // This calculates your checksum
@@ -172,6 +175,8 @@ Console.WriteLine(
     + HttpUtility.UrlEncode(pending_url)
     + "&back_url="
     + HttpUtility.UrlEncode(back_url)
+    + "&theme_id="
+    + HttpUtility.UrlEncode(theme_id.ToString())
     + "&checksum="
     + HttpUtility.UrlEncode(checksum)
     );

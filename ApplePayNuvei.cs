@@ -83,7 +83,7 @@ string checksum = ComputeSha256Hash(
     + error_url
     + pending_url
     + back_url
-    + theme_id.ToString()
+   // + theme_id.ToString()
     );
 
 // This calculates your checksum
@@ -167,8 +167,8 @@ Console.WriteLine(
     + HttpUtility.UrlEncode(pending_url)
     + "&back_url="
     + HttpUtility.UrlEncode(back_url)
-    + "&theme_id="
-    + HttpUtility.UrlEncode(theme_id.ToString())
+   // + "&theme_id="
+   // + HttpUtility.UrlEncode(theme_id.ToString())
     + "&checksum="
     + HttpUtility.UrlEncode(checksum)
     );

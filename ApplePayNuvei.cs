@@ -47,7 +47,7 @@ string success_url = "https://tnstoyanov.wixsite.com/payment-response/success";
 string error_url = "https://tnstoyanov.wixsite.com/payment-response/failed";
 // no status
 string pending_url = "https://tnstoyanov.wixsite.com/payment-response/pending";
-// if you close Nuvei's cashier
+// if you close Nuvei's cashier or cancel the payment
 string back_url = "https://tnstoyanov.wixsite.com/payment-response/cancel";
 // Optional: your Nuvei cashier theme ID
 // int theme_id = 146382; 
